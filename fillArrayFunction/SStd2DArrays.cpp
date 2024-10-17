@@ -10,7 +10,7 @@ void fillArray(std::array<std::array<int, MAXNUMBEROFCOLUMNS>, MAXNUMBEROFROWS>&
     int value = 1;
 
     if (method == FillMethod::NE_DIAG_DOWN) {
-        // Fill diagonally starting from North-East corner downwards
+        
         for (int col = columns - 1; col >= 0; --col) {
             int r = 0, c = col;
             while (r < rows && c < columns) {
